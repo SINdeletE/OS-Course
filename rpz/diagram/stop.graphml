@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <key attr.name="Description" attr.type="string" for="graph" id="d0" />
+  <key for="port" id="d1" yfiles.type="portgraphics" />
+  <key for="port" id="d2" yfiles.type="portgeometry" />
+  <key for="port" id="d3" yfiles.type="portuserdata" />
+  <key attr.name="url" attr.type="string" for="node" id="d4" />
+  <key attr.name="description" attr.type="string" for="node" id="d5" />
+  <key for="node" id="d6" yfiles.type="nodegraphics" />
+  <key for="graphml" id="d7" yfiles.type="resources" />
+  <key attr.name="url" attr.type="string" for="edge" id="d8" />
+  <key attr.name="description" attr.type="string" for="edge" id="d9" />
+  <key for="edge" id="d10" yfiles.type="edgegraphics" />
+  <graph edgedefault="directed" id="G">
+    <data key="d0">Согласованная остановка приёма</data>
+    <node id="n0">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.terminator">
+          <y:Geometry height="60.0" width="140.0" x="230.0" y="10.0" />
+          <y:Fill hasColor="false" transparent="false" />
+          <y:BorderStyle color="#000000" type="line" width="1.0" />
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.2" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="72.2" x="33.9" xml:space="preserve" y="20.9">Начало stop<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0" />
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0" />
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n1">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.process">
+          <y:Geometry height="89.49144398142198" width="120.0" x="240.0" y="115.25427800928901" />
+          <y:Fill hasColor="false" transparent="false" />
+          <y:BorderStyle color="#000000" type="line" width="1.0" />
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.4" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="97.0" x="11.5" xml:space="preserve" y="28.54572199071099">Захватить lock;
+running = false<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0" />
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0" />
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n2">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.process">
+          <y:Geometry height="89.49144398142198" width="120.0" x="240.0" y="245.254278009289" />
+          <y:Fill hasColor="false" transparent="false" />
+          <y:BorderStyle color="#000000" type="line" width="1.0" />
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.4" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="66.0" x="27.0" xml:space="preserve" y="28.54572199071099">Освободить
+блокировку<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0" />
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0" />
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n3">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.predefinedProcess">
+          <y:Geometry height="60.0" width="120.0" x="240.0" y="390.0" />
+          <y:Fill hasColor="false" transparent="false" />
+          <y:BorderStyle color="#000000" type="line" width="1.0" />
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.4" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="90.8" x="14.600000000000001" xml:space="preserve" y="13.8">Дождаться URB:
+usb_kill_urb<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0" />
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0" />
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n4">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.predefinedProcess">
+          <y:Geometry height="60.0" width="120.0" x="240.0" y="520.0" />
+          <y:Fill hasColor="false" transparent="false" />
+          <y:BorderStyle color="#000000" type="line" width="1.0" />
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.4" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="103.2" x="8.399999999999999" xml:space="preserve" y="13.8">Дождаться work:
+cancel_work_sync<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0" />
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0" />
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n5">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.predefinedProcess">
+          <y:Geometry height="60.0" width="120.0" x="240.0" y="650.0" />
+          <y:Fill hasColor="false" transparent="false" />
+          <y:BorderStyle color="#000000" type="line" width="1.0" />
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.4" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="103.2" x="8.399999999999999" xml:space="preserve" y="13.8">Сбросить отсчёт;
+отпустить кнопки<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0" />
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0" />
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n6">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.terminator">
+          <y:Geometry height="60.0" width="140.0" x="230.0" y="780.0" />
+          <y:Fill hasColor="false" transparent="false" />
+          <y:BorderStyle color="#000000" type="line" width="1.0" />
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.2" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.0" x="52.5" xml:space="preserve" y="20.9">Выход<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0" />
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0" />
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <edge id="e0" source="n0" target="n1">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0" />
+          <y:Arrows source="none" target="standard" />
+          <y:BendStyle smoothed="false" />
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e1" source="n1" target="n2">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0" />
+          <y:Arrows source="none" target="standard" />
+          <y:BendStyle smoothed="false" />
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e2" source="n2" target="n3">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0" />
+          <y:Arrows source="none" target="standard" />
+          <y:BendStyle smoothed="false" />
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e3" source="n3" target="n4">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0" />
+          <y:Arrows source="none" target="standard" />
+          <y:BendStyle smoothed="false" />
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e4" source="n4" target="n5">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0" />
+          <y:Arrows source="none" target="standard" />
+          <y:BendStyle smoothed="false" />
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e5" source="n5" target="n6">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0" />
+          <y:Arrows source="none" target="standard" />
+          <y:BendStyle smoothed="false" />
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+  </graph>
+  <data key="d7">
+    <y:Resources />
+  </data>
+</graphml>
